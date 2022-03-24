@@ -59,7 +59,7 @@ body {
 }
 
 #principal {
-  padding: 12em;
+  padding: 10em;
   text-align: center;
   background-image: url("foto-principal.jpg");
   background-repeat: no-repeat;
@@ -69,4 +69,31 @@ body {
 
 #principal > ul{
   list-style-type: none;
+}
+
+#letra {
+  color: white;
+}
+
+#cuota {
+  padding: 0.1em;
+  display: inline-block;
+  background-color: yellow;
+  color: yellow;
+  text-align: center;
+}
+
+#cuota {
+  color: black;
+}
+
+#sub-principal {
+  padding: 1em;
+  background-color: black;
+  color: black;
+  text-align: center;
+}
+
+#texto {
+  color: white;
 }
