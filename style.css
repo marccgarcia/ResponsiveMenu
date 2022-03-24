@@ -117,3 +117,24 @@ body {
 #texto-pequeño {
   color: gray;
 }
+
+#link {
+  color: blue;
+  text-align: center;
+}
+
+#tiks {
+  padding: 1em;
+  background-color: gray;
+  color: gray;
+}
+
+#copper-gutters {
+  color: black;
+  text-align: left;
+}
+
+#leaf-protection {
+  color: black;
+  text-align: left;
+}
