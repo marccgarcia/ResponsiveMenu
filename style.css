@@ -97,3 +97,23 @@ body {
 #texto {
   color: white;
 }
+
+#portland-information{
+  padding: 1em;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+
+#imagen-portland {
+  text-align: center;
+  width: 200px;
+}
+
+#portland-or {
+  color: black;
+}
+
+#texto-pequeño {
+  color: gray;
+}
