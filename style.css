@@ -1,0 +1,72 @@
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+  border: thin solid red;
+}
+
+body {
+  margin: 0;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#header {
+  padding: 1em;
+  background-color: black;
+  color: black;
+  text-align: right;
+}
+
+  #logo-title{
+    color: white;
+  }
+
+#royal {
+  padding: 3em;
+  background-color: gray;
+  color: gray;
+}
+
+#menu {
+  padding: 1em;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+
+#menu-ul {
+  color:gray;
+}
+
+#menu > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu > ul > li {
+  display: inline-block;
+  padding: 0.5em;
+  border-left: thin solid lightgray;
+}
+
+#principal {
+  padding: 12em;
+  text-align: center;
+  background-image: url("foto-principal.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#principal > ul{
+  list-style-type: none;
+}
