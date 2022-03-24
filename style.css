@@ -138,3 +138,18 @@ body {
   color: black;
   text-align: left;
 }
+
+#new-gutters {
+  color: black;
+  text-align: center;
+}
+
+#gutters-to-go {
+  color: black;
+  text-align: right;
+}
+
+#gutter-repairs {
+  color: black;
+  text-align:right; 
+}
