@@ -119,7 +119,6 @@ body {
 }
 
 #link {
-  color: blue;
   text-align: center;
 }
 
@@ -151,5 +150,53 @@ body {
 
 #gutter-repairs {
   color: black;
-  text-align:right; 
+  text-align:right;
+}
+
+#capa {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em;
+  background-color: white;
+  color: white;
+}
+
+#obreros {
+  text-align: left;
+}
+
+#imagen-obrero {
+  text-align: left;
+  width: 200px;
+}
+
+#canada-eu {
+  text-align: center;
+}
+
+#imagen-canada {
+  text-align: center;
+  width: 250px;
+  height: 200px;
+}
+
+#seguridad {
+  text-align: right;
+}
+
+#imagen-seguridad {
+  text-align: right;
+  width: 200px;
+}
+
+#subcontractors {
+  color: black;
+}
+
+#materials {
+  color: black;
+}
+
+#lifetime {
+  color: black;
 }
