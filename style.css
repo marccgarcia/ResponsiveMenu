@@ -78,7 +78,7 @@ body {
 #cuota {
   padding: 0.1em;
   display: inline-block;
-  background-color: yellow;
+  background-color: #f7c51e;
   color: yellow;
   text-align: center;
 }
@@ -199,4 +199,78 @@ body {
 
 #lifetime {
   color: black;
+}
+
+#subcontractors-info {
+  color: gray;
+}
+
+#materials-info {
+  color: gray;
+}
+
+#lifetime-info {
+  color: gray;
+}
+
+#capa-exterior {
+  padding: 15em;
+  background-color: gray;
+}
+
+#capa-b1 {
+
+}
+
+#capa-principal {
+  padding: 10em;
+  background-color: white;
+  color: black;
+}
+
+#capa-negra {
+  padding: 6em;
+  background-color: black;
+}
+
+#capa-amarilla {
+  padding: 1em;
+  background-color: #f7c51e;
+}
+
+#casas > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#casas > ul > li {
+  display: inline-block;
+  padding: 0.5em;
+  border-left: thin solid lightgray;
+}
+
+
+#casas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 8em;
+}
+
+#imagen-casa1 {
+  width: 400px;
+}
+
+#imagen-casa2 {
+  width: 400px;
+}
+
+
+#imagen-casa3 {
+  width: 400px;
+}
+
+
+#texto-footer {
+  color: gray;
 }
