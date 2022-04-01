@@ -123,34 +123,11 @@ body {
 }
 
 #tiks {
-  padding: 1em;
-  background-color: gray;
-  color: gray;
-}
-
-#copper-gutters {
-  color: black;
-  text-align: left;
-}
-
-#leaf-protection {
-  color: black;
-  text-align: left;
-}
-
-#new-gutters {
-  color: black;
-  text-align: center;
-}
-
-#gutters-to-go {
-  color: black;
-  text-align: right;
-}
-
-#gutter-repairs {
-  color: black;
-  text-align:right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5em;
+    background-color: gray;
+    color: black;
 }
 
 #capa {
@@ -227,7 +204,7 @@ body {
 }
 
 #capa-principal {
-  padding: 10em;
+  padding: 5em;
   background-color: white;
   color: black;
 }
