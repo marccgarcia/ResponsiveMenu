@@ -214,12 +214,16 @@ body {
 }
 
 #capa-exterior {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 15em;
   background-color: gray;
 }
 
-#capa-b1 {
-
+.capa-blanca {
+  background-color: white;
+  padding: 7em;
+  color: black;
 }
 
 #capa-principal {
@@ -273,4 +277,16 @@ body {
 
 #texto-footer {
   color: gray;
+}
+
+#letras-service-areas {
+  color: white;
+  text-align: left;
+}
+
+#capa-negra {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5em;
+  color: white;
 }
